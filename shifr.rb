@@ -8,6 +8,7 @@ if (Gem.win_platform?)
       io.set_encoding(Encoding.default_external, Encoding.default_internal)
     end
 end
+
 puts "Введите слово или фразу для шифрования:"
 phrase_or_word = STDIN.gets.chomp.encode("UTF-8")
 puts "Каким способом зашифровать:"
